@@ -22,7 +22,6 @@ sensor = profile.get_device().first_depth_sensor()
 sensor.set_option(rs.option.emitter_enabled, 0) # 0代表关闭，1代表开启
 sensor.set_option(rs.option.laser_power, 0)
 
-
 dist_coeffs = np.zeros((1, 5))
 
 try:

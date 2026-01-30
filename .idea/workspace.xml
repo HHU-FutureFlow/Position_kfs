@@ -3,18 +3,33 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7017b44a-3f73-4608-a920-b8f6a04998ef" name="更改" comment="1.19">
-      <change afterPath="$PROJECT_DIR$/Aruco.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate.py" afterDir="false" />
+    <list default="true" id="7017b44a-3f73-4608-a920-b8f6a04998ef" name="更改" comment="1.20">
+      <change afterPath="$PROJECT_DIR$/struck/strukt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/DoubleParameterFilter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/Realsence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/SingleParameterFilter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/draw.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Weapon_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aruco.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aruco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weapon_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/Weapon_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yolo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generate.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/generate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,6 +50,16 @@
     &quot;accountId&quot;: &quot;09561ea3-d379-47cb-8678-e79ff02341e6&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/PyCharm2025.3/python_stubs/-1962427234/pyrealsense2/pyrealsense2/depth_frame.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/.venv/flitter.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="28t9WBoj" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -49,21 +74,31 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Aruco.executor": "Run",
     "Python.Function.executor": "Run",
+    "Python.Realsence.executor": "Run",
     "Python.Weapon_head.executor": "Run",
     "Python.__init__.executor": "Run",
+    "Python.draw.executor": "Run",
+    "Python.flitter.executor": "Run",
     "Python.generate.executor": "Run",
     "Python.main.executor": "Run",
     "Python.main2.executor": "Run",
     "Python.scratch.executor": "Run",
     "Python.scratch_1.executor": "Run",
     "Python.test.executor": "Run",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Position",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件": [
@@ -75,11 +110,16 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Position" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Position\util" />
+      <recent name="D:\Position" />
+      <recent name="D:\Position\struck" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-f69e5c277ee4-cbfc7b97e6b2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.27397.106" />
+        <option value="bundled-python-sdk-3944b0c99280-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.30387.127" />
       </set>
     </attachedChunks>
   </component>
@@ -90,6 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768538117657</updated>
+      <workItem from="1769587797832" duration="57000" />
     </task>
     <task id="LOCAL-00001" summary="1.17">
       <option name="closed" value="true" />
@@ -147,8 +188,19 @@
       <option name="project" value="LOCAL" />
       <updated>1768838812255</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1.20">
+      <option name="closed" value="true" />
+      <created>1768922651533</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1768922651533</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -164,6 +216,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.17" />
     <MESSAGE value="1.18" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.18" />
+    <MESSAGE value="1.20" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.20" />
   </component>
 </project>
